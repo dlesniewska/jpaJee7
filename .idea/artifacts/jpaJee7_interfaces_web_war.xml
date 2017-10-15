@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jpaJee7-interfaces-web:war">
+    <output-path>$PROJECT_DIR$/jpaJee7-interfaces/jpaJee7-interfaces-web/target</output-path>
+    <root id="archive" name="jpaJee7-interfaces-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="jpaJee7-interfaces-web:war exploded" />
+    </root>
+  </artifact>
+</component>

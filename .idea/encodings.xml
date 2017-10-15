@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jpaJee7-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jpaJee7-commons/jpaJee7-commons-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jpaJee7-commons/jpaJee7-commons-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jpaJee7-commons/jpaJee7-commons-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jpaJee7-interfaces" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jpaJee7-interfaces/jpaJee7-interfaces-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jpaJee7-services" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jpaJee7-services/jpaJee7-services-helloworld" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jpaJee7-services/jpaJee7-services-helloworld-interface" charset="UTF-8" />
+  </component>
+</project>

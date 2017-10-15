@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/jpaJee7.iml" filepath="$PROJECT_DIR$/jpaJee7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpaJee7-commons/jpaJee7-commons.iml" filepath="$PROJECT_DIR$/jpaJee7-commons/jpaJee7-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpaJee7-commons/jpaJee7-commons-model/jpaJee7-commons-model.iml" filepath="$PROJECT_DIR$/jpaJee7-commons/jpaJee7-commons-model/jpaJee7-commons-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpaJee7-commons/jpaJee7-commons-security/jpaJee7-commons-security.iml" filepath="$PROJECT_DIR$/jpaJee7-commons/jpaJee7-commons-security/jpaJee7-commons-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpaJee7-commons/jpaJee7-commons-service/jpaJee7-commons-service.iml" filepath="$PROJECT_DIR$/jpaJee7-commons/jpaJee7-commons-service/jpaJee7-commons-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpaJee7-interfaces/jpaJee7-interfaces.iml" filepath="$PROJECT_DIR$/jpaJee7-interfaces/jpaJee7-interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpaJee7-interfaces/jpaJee7-interfaces-web/jpaJee7-interfaces-web.iml" filepath="$PROJECT_DIR$/jpaJee7-interfaces/jpaJee7-interfaces-web/jpaJee7-interfaces-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpaJee7-services/jpaJee7-services.iml" filepath="$PROJECT_DIR$/jpaJee7-services/jpaJee7-services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpaJee7-services/jpaJee7-services-helloworld/jpaJee7-services-helloworld.iml" filepath="$PROJECT_DIR$/jpaJee7-services/jpaJee7-services-helloworld/jpaJee7-services-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpaJee7-services/jpaJee7-services-helloworld-interface/jpaJee7-services-helloworld-interface.iml" filepath="$PROJECT_DIR$/jpaJee7-services/jpaJee7-services-helloworld-interface/jpaJee7-services-helloworld-interface.iml" />
+    </modules>
+  </component>
+</project>

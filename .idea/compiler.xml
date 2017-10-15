@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jpaJee7-commons-model" />
+        <module name="jpaJee7-commons-service" />
+        <module name="jpaJee7-interfaces-web" />
+        <module name="jpaJee7-services-helloworld" />
+        <module name="jpaJee7-services-helloworld-interface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jpaJee7" target="1.8" />
+      <module name="jpaJee7-commons" target="1.8" />
+      <module name="jpaJee7-commons-model" target="1.8" />
+      <module name="jpaJee7-commons-security" target="1.8" />
+      <module name="jpaJee7-commons-service" target="1.8" />
+      <module name="jpaJee7-interfaces" target="1.8" />
+      <module name="jpaJee7-interfaces-web" target="1.8" />
+      <module name="jpaJee7-services" target="1.8" />
+      <module name="jpaJee7-services-helloworld" target="1.8" />
+      <module name="jpaJee7-services-helloworld-interface" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
