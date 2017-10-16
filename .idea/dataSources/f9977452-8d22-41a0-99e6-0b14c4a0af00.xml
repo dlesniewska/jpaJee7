@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="jpa@localhost">
-  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.4">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.7">
     <root id="1"/>
     <schema id="2" parent="1" name="JPA">
       <ObjectId>104</ObjectId>
-      <IntrospectionTimestamp>2017-09-06.21:01:35</IntrospectionTimestamp>
-      <CreatedTimestamp>2017-09-06.20:17:01</CreatedTimestamp>
-      <ModifiedTimestamp>2017-09-06.21:00:57</ModifiedTimestamp>
+      <IntrospectionTimestamp>2017-10-16.22:02:24</IntrospectionTimestamp>
+      <CreatedTimestamp>2017-09-06.22:17:01</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -122,165 +122,426 @@
       <ObjectId>2147483638</ObjectId>
     </schema>
     <sequence id="40" parent="2" name="EMPLOYEE_SEQ">
-      <ObjectId>91969</ObjectId>
-      <CreatedTimestamp>2017-09-06.21:00:57</CreatedTimestamp>
-      <ModifiedTimestamp>2017-09-06.21:00:57</ModifiedTimestamp>
+      <ObjectId>92038</ObjectId>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
       <SequenceIdentity>1+50</SequenceIdentity>
     </sequence>
     <sequence id="41" parent="2" name="ISEQ$$_91964">
       <ObjectId>91965</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2017-09-06.20:17:01</CreatedTimestamp>
-      <ModifiedTimestamp>2017-09-06.20:17:01</ModifiedTimestamp>
+      <CreatedTimestamp>2017-09-06.22:17:01</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.22:17:01</ModifiedTimestamp>
       <SequenceIdentity>1</SequenceIdentity>
       <BelongsToColumn>1</BelongsToColumn>
     </sequence>
     <sequence id="42" parent="2" name="ISEQ$$_91973">
       <ObjectId>91974</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2017-09-06.21:00:57</CreatedTimestamp>
-      <ModifiedTimestamp>2017-09-06.21:00:57</ModifiedTimestamp>
+      <CreatedTimestamp>2017-09-06.23:00:57</CreatedTimestamp>
+      <ModifiedTimestamp>2017-09-06.23:00:57</ModifiedTimestamp>
       <SequenceIdentity>1</SequenceIdentity>
       <BelongsToColumn>1</BelongsToColumn>
     </sequence>
-    <sequence id="43" parent="2" name="PROJECT_SEQ">
-      <ObjectId>91970</ObjectId>
-      <CreatedTimestamp>2017-09-06.21:00:57</CreatedTimestamp>
-      <ModifiedTimestamp>2017-09-06.21:00:57</ModifiedTimestamp>
+    <sequence id="43" parent="2" name="ISEQ$$_91992">
+      <ObjectId>91993</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-10-16.21:51:04</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.21:51:04</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="44" parent="2" name="ISEQ$$_92017">
+      <ObjectId>92018</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-10-16.21:59:40</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.21:59:40</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="45" parent="2" name="ISEQ$$_92042">
+      <ObjectId>92043</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+    </sequence>
+    <sequence id="46" parent="2" name="PROJECT_SEQ">
+      <ObjectId>92039</ObjectId>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
       <SequenceIdentity>1+50</SequenceIdentity>
     </sequence>
-    <table id="44" parent="2" name="EMPLOYEE">
-      <ObjectId>91971</ObjectId>
-      <CreatedTimestamp>2017-09-06.21:00:57</CreatedTimestamp>
-      <ModifiedTimestamp>2017-09-06.21:00:57</ModifiedTimestamp>
+    <table id="47" parent="2" name="EMPLOYEE">
+      <ObjectId>92040</ObjectId>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="45" parent="2" name="POST">
-      <ObjectId>91973</ObjectId>
-      <CreatedTimestamp>2017-09-06.21:00:57</CreatedTimestamp>
-      <ModifiedTimestamp>2017-09-06.21:00:57</ModifiedTimestamp>
+    <table id="48" parent="2" name="POST">
+      <ObjectId>92042</ObjectId>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <table id="46" parent="2" name="PROJECT">
-      <ObjectId>91978</ObjectId>
-      <CreatedTimestamp>2017-09-06.21:00:57</CreatedTimestamp>
-      <ModifiedTimestamp>2017-09-06.21:00:57</ModifiedTimestamp>
+    <table id="49" parent="2" name="PROJECT">
+      <ObjectId>92047</ObjectId>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
       <TemporaryPreserve>1</TemporaryPreserve>
     </table>
-    <column id="47" parent="44" name="ID">
+    <table id="50" parent="2" name="T_PRIVILEGE">
+      <ObjectId>92049</ObjectId>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="51" parent="2" name="T_ROLE">
+      <ObjectId>92051</ObjectId>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="52" parent="2" name="T_ROLE_PRIVILEGE">
+      <ObjectId>92053</ObjectId>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="53" parent="2" name="T_USER">
+      <ObjectId>92055</ObjectId>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="54" parent="2" name="T_USER_ROLES">
+      <ObjectId>92057</ObjectId>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="55" parent="47" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(19)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="48" parent="44" name="FIRST_NAME">
+    <column id="56" parent="47" name="FIRST_NAME">
       <Position>2</Position>
       <DataType>VARCHAR2(50 char)|0</DataType>
     </column>
-    <column id="49" parent="44" name="JOB">
+    <column id="57" parent="47" name="JOB">
       <Position>3</Position>
       <DataType>VARCHAR2(255 char)|0</DataType>
     </column>
-    <column id="50" parent="44" name="LAST_NAME">
+    <column id="58" parent="47" name="LAST_NAME">
       <Position>4</Position>
       <DataType>VARCHAR2(255 char)|0</DataType>
     </column>
-    <column id="51" parent="44" name="VERSION">
+    <column id="59" parent="47" name="VERSION">
       <Position>5</Position>
       <DataType>NUMBER(19)|0</DataType>
     </column>
-    <index id="52" parent="44" name="SYS_C009999">
-      <ObjectId>91972</ObjectId>
+    <index id="60" parent="47" name="SYS_C0010053">
+      <ObjectId>92041</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2017-09-06.21:00:57</CreatedTimestamp>
-      <ModifiedTimestamp>2017-09-06.21:00:57</ModifiedTimestamp>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
       <TablespaceName>DATA_TS</TablespaceName>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="53" parent="44" name="SYS_C009999">
+    <key id="61" parent="47" name="SYS_C0010053">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2017-09-06.21:00:57</ModifiedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
       <ColNames>ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C009999</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C0010053</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="54" parent="45" name="ID">
+    <column id="62" parent="48" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(19)|0</DataType>
       <NotNull>1</NotNull>
       <AutoInc>1</AutoInc>
     </column>
-    <column id="55" parent="45" name="AUTHOR">
+    <column id="63" parent="48" name="AUTHOR">
       <Position>2</Position>
       <DataType>VARCHAR2(255 char)|0</DataType>
     </column>
-    <column id="56" parent="45" name="POSTDATETIME">
+    <column id="64" parent="48" name="POSTDATETIME">
       <Position>3</Position>
       <DataType>TIMESTAMP(6)|0</DataType>
     </column>
-    <column id="57" parent="45" name="TEXT">
+    <column id="65" parent="48" name="TEXT">
       <Position>4</Position>
       <DataType>CLOB|0</DataType>
     </column>
-    <column id="58" parent="45" name="TITLE">
+    <column id="66" parent="48" name="TITLE">
       <Position>5</Position>
       <DataType>VARCHAR2(255 char)|0</DataType>
     </column>
-    <index id="59" parent="45" name="SYS_C0010001">
-      <ObjectId>91977</ObjectId>
+    <index id="67" parent="48" name="SYS_C0010055">
+      <ObjectId>92046</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2017-09-06.21:00:57</CreatedTimestamp>
-      <ModifiedTimestamp>2017-09-06.21:00:57</ModifiedTimestamp>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
       <TablespaceName>DATA_TS</TablespaceName>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="60" parent="45" name="SYS_C0010001">
+    <key id="68" parent="48" name="SYS_C0010055">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2017-09-06.21:00:57</ModifiedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
       <ColNames>ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C0010001</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C0010055</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="61" parent="46" name="ID">
+    <column id="69" parent="49" name="ID">
       <Position>1</Position>
       <DataType>NUMBER(19)|0</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="62" parent="46" name="NAME">
+    <column id="70" parent="49" name="NAME">
       <Position>2</Position>
       <DataType>VARCHAR2(50 char)|0</DataType>
     </column>
-    <column id="63" parent="46" name="SUBJECT">
+    <column id="71" parent="49" name="SUBJECT">
       <Position>3</Position>
       <DataType>VARCHAR2(255 char)|0</DataType>
     </column>
-    <column id="64" parent="46" name="PROJECT_TYPE">
+    <column id="72" parent="49" name="PROJECT_TYPE">
       <Position>4</Position>
       <DataType>VARCHAR2(50 char)|0</DataType>
     </column>
-    <column id="65" parent="46" name="VERSION">
+    <column id="73" parent="49" name="VERSION">
       <Position>5</Position>
       <DataType>NUMBER(19)|0</DataType>
     </column>
-    <index id="66" parent="46" name="SYS_C0010003">
-      <ObjectId>91979</ObjectId>
+    <index id="74" parent="49" name="SYS_C0010057">
+      <ObjectId>92048</ObjectId>
       <NameSurrogate>1</NameSurrogate>
-      <CreatedTimestamp>2017-09-06.21:00:57</CreatedTimestamp>
-      <ModifiedTimestamp>2017-09-06.21:00:57</ModifiedTimestamp>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
       <TablespaceName>DATA_TS</TablespaceName>
       <ColNames>ID</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="67" parent="46" name="SYS_C0010003">
+    <key id="75" parent="49" name="SYS_C0010057">
       <NameSurrogate>1</NameSurrogate>
-      <ModifiedTimestamp>2017-09-06.21:00:57</ModifiedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
       <ColNames>ID</ColNames>
       <InitiallyDeferred>1</InitiallyDeferred>
-      <UnderlyingIndexName>SYS_C0010003</UnderlyingIndexName>
+      <UnderlyingIndexName>SYS_C0010057</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
+    <column id="76" parent="50" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="77" parent="50" name="PRIVILEGE_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <index id="78" parent="50" name="SYS_C0010059">
+      <ObjectId>92050</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <TablespaceName>DATA_TS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="79" parent="50" name="SYS_C0010059">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0010059</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="80" parent="51" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="51" name="ROLE_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <index id="82" parent="51" name="SYS_C0010061">
+      <ObjectId>92052</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <TablespaceName>DATA_TS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="83" parent="51" name="SYS_C0010061">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0010061</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="84" parent="52" name="ROLE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="52" name="PRIV_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="86" parent="52" name="SYS_C0010064">
+      <ObjectId>92054</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <TablespaceName>DATA_TS</TablespaceName>
+      <ColNames>ROLE_ID
+PRIV_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="87" parent="52" name="T_ROLE_PRIVILEGE_ROLE_ID_IDX">
+      <ObjectId>92059</ObjectId>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <TablespaceName>DATA_TS</TablespaceName>
+      <ColNames>ROLE_ID</ColNames>
+    </index>
+    <index id="88" parent="52" name="T_ROLE_PRIVILEGE_PRIV_ID_IDX">
+      <ObjectId>92060</ObjectId>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <TablespaceName>DATA_TS</TablespaceName>
+      <ColNames>PRIV_ID</ColNames>
+    </index>
+    <key id="89" parent="52" name="SYS_C0010064">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <ColNames>ROLE_ID
+PRIV_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0010064</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="90" parent="52" name="FKJ615H18HJ2NRTV31NPMEF50RH">
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <ColNames>ROLE_ID</ColNames>
+      <RefSchemaName>JPA</RefSchemaName>
+      <RefTableName>T_ROLE</RefTableName>
+      <RefKeyName>SYS_C0010061</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="91" parent="52" name="FK82J7YRLUA3PRYPYXGWFTAJRYX">
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <ColNames>PRIV_ID</ColNames>
+      <RefSchemaName>JPA</RefSchemaName>
+      <RefTableName>T_PRIVILEGE</RefTableName>
+      <RefKeyName>SYS_C0010059</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="92" parent="53" name="ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="53" name="ACTIVE">
+      <Position>2</Position>
+      <DataType>NUMBER(1)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="53" name="USER_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <index id="95" parent="53" name="SYS_C0010067">
+      <ObjectId>92056</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <TablespaceName>DATA_TS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="96" parent="53" name="SYS_C0010067">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0010067</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="97" parent="54" name="USER_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="98" parent="54" name="ROLE_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(19)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="99" parent="54" name="SYS_C0010070">
+      <ObjectId>92058</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <TablespaceName>DATA_TS</TablespaceName>
+      <ColNames>USER_ID
+ROLE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="100" parent="54" name="T_USER_ROLE_USER_ID_IDX">
+      <ObjectId>92061</ObjectId>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <TablespaceName>DATA_TS</TablespaceName>
+      <ColNames>USER_ID</ColNames>
+    </index>
+    <index id="101" parent="54" name="T_USER_ROLE_ROLE_ID_IDX">
+      <ObjectId>92062</ObjectId>
+      <CreatedTimestamp>2017-10-16.22:02:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <TablespaceName>DATA_TS</TablespaceName>
+      <ColNames>ROLE_ID</ColNames>
+    </index>
+    <key id="102" parent="54" name="SYS_C0010070">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <ColNames>USER_ID
+ROLE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0010070</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="103" parent="54" name="UK_9M4KAR9GHNIV0N1G51F7FK83M">
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <ColNames>ROLE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>T_USER_ROLE_ROLE_ID_IDX</UnderlyingIndexName>
+    </key>
+    <foreign-key id="104" parent="54" name="FKN9QASM63JLJFJPGQDH85AQSK">
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <ColNames>USER_ID</ColNames>
+      <RefSchemaName>JPA</RefSchemaName>
+      <RefTableName>T_USER</RefTableName>
+      <RefKeyName>SYS_C0010067</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="105" parent="54" name="FKHH7KOJF6NEYS0VMTV6CGLEU4W">
+      <ModifiedTimestamp>2017-10-16.22:02:12</ModifiedTimestamp>
+      <ColNames>ROLE_ID</ColNames>
+      <RefSchemaName>JPA</RefSchemaName>
+      <RefTableName>T_ROLE</RefTableName>
+      <RefKeyName>SYS_C0010061</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
   </database-model>
 </dataSource>
